@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Six Senses Con Dao Resort</string>
+    <string name="Welcome">Welcome to Six Senses Resort</string>
+    <string name="pool">Our swimming pool</string>
+    <string name="reserve">Reserve Now!</string>
+    <string name="booking_info" translatable="false">Booking Info:</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="room">Room:</string>
+    <color name="yellow">#FFEB3B</color>
+</resources>

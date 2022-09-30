@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintlayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:layout_gravity="center_horizontal"
+    >
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/imageview1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/reserve"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent "
+        app:layout_constraintRight_toLeftOf="@+id/imageview1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+         />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="365dp"
+        android:layout_height="368dp"
+        android:layout_alignRight="@+id/textview1"
+        android:background="@drawable/con_dao"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pool"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageview1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview1"
+
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
